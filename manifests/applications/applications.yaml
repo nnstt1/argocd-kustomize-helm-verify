@@ -4,7 +4,7 @@ metadata:
   name: applications
   namespace: argocd
 spec:
-  project: system
+  project: default
   source:
     repoURL: https://github.com/nnstt1/argocd-kustomize-helm-verify.git
     path: manifests/applications
