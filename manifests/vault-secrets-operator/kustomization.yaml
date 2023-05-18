@@ -1,0 +1,8 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+helmCharts:
+  - name: vault-secrets-operator
+    repo: https://helm.releases.hashicorp.com
+    version: 0.1.0-beta
+    releaseName: vault-secrets-operator
+    namespace: vault-secrets-operator
